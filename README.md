@@ -10,8 +10,8 @@ Ta-Yun Yang, Xuan Bu, Yuwei Zhang
  * [Pipelines](#pipelines)
  * [User Guide](#user-guide)
  * [Reference](#reference)
- * [License](#License)
- * [Acknowledgement](#acknowledge)
+ * [License](#license)
+ * [Acknowledgement](#acknowledgement)
 
 
 ## Project Overview
@@ -92,11 +92,11 @@ This project using the open source data from [the City of Chicago Data Portal](h
 
 ## Pipelines
 The pipeline contains five python files:
-* <span style="background-color: #edeeef"> find_facilities.py: </span> impletements the recommendation alogrithm with the processed data; and generate a web page representing the qualified facilities and their corresponding locations on Google Map
-* <span style="background-color: #edeeef"> util.py: </span> contains the helper functions for crawl_food_pantry.py, crawl_shelter.py and find_facilities.py
-* <span style="background-color: #edeeef"> crawl_food_pantry.py: </span> scrapes the website of food pantries
-* <span style="background-color: #edeeef"> crawl_shelter.py: </span> scrapes the website of shelters
-* <span style="background-color: #edeeef"> data_cleaning.py: </span> cleans the raw data from Chicago Data Portal
+* `find_facilities.py`:impletements the recommendation alogrithm with the processed data; and generate a web page representing the qualified facilities and their corresponding locations on Google Map
+* `util.py`: </span> contains the helper functions for crawl_food_pantry.py, crawl_shelter.py and find_facilities.py
+* `crawl_food_pantry.py`: scrapes the website of food pantries
+* `crawl_shelter.py`: scrapes the website of shelters
+* `data_cleaning.py`: cleans the raw data from Chicago Data Portal (It is included in the `raw_data` folder)
 
 Before executing the following code in User Guide,
 * Please make sure you have installed all the packages of the same version as the ones in dependencies section.
