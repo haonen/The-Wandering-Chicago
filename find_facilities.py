@@ -117,7 +117,7 @@ def map_plot(address, dict_of_geocode):
         gmap.scatter(facility_lats, facility_lons, color, size=60, marker=True)
     gmap.marker(user_lat, user_lon, '#000000', title='User Location')
     gmap.draw("my_map.html")
-    util.insert_apikey("my_map.html", 'AIzaSyBu5c2MH9Rj8tPzYmr14VC87Jp3xY-estc')
+    util.insert_apikey("my_map.html", Your api key here)
     return "my_map.html"
 
 
