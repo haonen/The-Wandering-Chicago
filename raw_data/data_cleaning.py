@@ -133,7 +133,7 @@ def get_coordiance(df):
         add two columns to the data frame and return the new data frame
     '''
     gmaps_key = googlemaps.Client(key=\
-                                'AIzaSyABYmQbCm2aro_JDQkTV_Td96fvUA6g_nY')
+                                'Your API KEY HERE')
     df['geocode_result'] = df.apply(lambda x: \
                                 gmaps_key.geocode(x['address']), axis=1)
     df['latitude'] = df.apply(lambda x:\
